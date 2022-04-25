@@ -3,19 +3,24 @@
     text-align: center;
     position: sticky;
     padding-top: 100px;
+    margin: auto;
 }
 .navbar{
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     position: fixed;
-    padding: 15px ;
+    padding: 8px;
     background:#71C9CE;
 }
-
 .navbar .max-width{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin: 0 20px; 
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;}
+.max-width {
+    margin: 0;
 }
 .navbar .menu li{
     list-style: none;
@@ -29,9 +34,11 @@
 .navbar .menu li a{
     color: #40514E;
     cursor: pointer;
+    font-family: sans-serif;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    margin-right: 40px;
 }
 .navbar .menu :hover{
     color: #EAF6F6;
@@ -52,14 +59,27 @@ a{
 a:hover{
     color: #40514E;
 }
-hr{
-    border: dotted #EAF6F6 6px;
+.hr{
+    border: dotted #EAF6F6 10px;
     border-bottom: none;
     width: 50px;
-    margin: 100px auto;
+    margin: auto;
+}
+.nxtline{
+    border: dotted #fff 6px;
+    border-bottom: none;
+    width: 50px;
+    margin: 50px auto;
 }
 .student{
     text-decoration: underline;
+}
+.clg{
+    color: #40514E;
+}
+.clg:hover{
+    color: #71C9CE;
+    font-size: large;
 }
 .cap-text,.student{
     font-weight: normal;
@@ -70,7 +90,9 @@ hr{
     position: absolute;
     right: 20%;
     top: 50px;
-
+}
+.mountain-img{
+    width: 100%;
 }
 
 .bottom-cloud{
@@ -83,35 +105,35 @@ hr{
     width: 100px;
     float: right;
     margin-left: 30px;
-}/*
-.mountain-img{
-    position: relative;
-    width: 80%;
-    height: 80%;
-}*/
-.computer-img {
-    border-radius: 50%;
-    width: 100px;
+}
+.python-img {
+    width: 5rem;
     float: left;
     margin-right: 30px;
 }
-.chillies-img{
+.sql-img{
+    width: 5rem;
+    float: right;
+    margin-left: 10px;
+
+}
+.interests-img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     float: right;
     margin-left: 30px;
 }
+.get-in-touch{
+    text-align: center;
+}
 h2,h3{
     color: #71C9CE;
 }
 .profile{
-    line-height: 2;
+    line-height: 2.5;
     text-align: left;
-}
-.top-container{
-    line-height: 2;
-
+    justify-content: center;
 }
 .middle-container{
     color: #40514E;
@@ -123,14 +145,13 @@ h2,h3{
 }
 .skill-row{
     width: 100%;
-    margin: auto;
     text-align: left;
     line-height: 2;
 }
 .bottom-container{
     line-height: 2;
     background-color: #71C9CE;
-    margin: auto;
+    margin: 0;
     text-align: center;
     padding: 20px 0 0px;
 }
@@ -143,7 +164,7 @@ h2,h3{
     text-align: center;
     display: block;
     position: relative;
-    padding: 0.75em 2em 0.75em 2em;
+    padding: 0.75em 2em;
     color: #1b7f69;
     text-decoration: none;
     margin: 10px auto 10px auto;
@@ -156,11 +177,15 @@ h2,h3{
     transition: 1.5s;
     transform: translate(10px,0px);
 }
-.computer-img:hover{
+.python-img:hover{
     transition: 1.5s;
     transform: translate(10px,0px);
 }
-.chillies-img:hover{
+.sql-img:hover{
+    transition: 1.5s;
+    transform: translate(10px,0px);
+}
+.interests-img:hover{
     transition: 1.5s;
     transform: translate(10px,0px);
 }
@@ -174,28 +199,135 @@ h2,h3{
     font-size: 0.725rem;
     margin: 10px 0 5px;
 }
-/*
 @media  screen and (min-device-width: 768px)
 and (max-device-width: 1024px) {
     .top-container{
-        width: 90%;
+        width: 100%;
+        margin: 0;
+    }
+    .mountain-img{
+        width:inherit;
+    }
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .max-width {
+        margin: 0;
     }
     .middle-container{
         width: 90%;
+        margin: 100px 200px;
     }
     .bottom-container{
         width: 90%;
+    }
+    .navbar .max-width{
+        width: 100%;
+        margin: 0;
     }
 }
-@media  screen and (min-device-width: 320px)
-and (min-device-width: 400px) {
+@media  screen and (min-device-width: 320px) and (min-device-width: 480px) {
+    .navbar{
+        padding: 4px;
+    }
+    .mountain-img{
+        width: 50%;
+    }
+    .top-cloud{
+        position: absolute;
+        right: 20%;
+        top: 100px;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 15%;
+        top: 300px;
+        height: 50px;
+    }
+    .max-width {
+        margin: 0;
+    }
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
     .top-container{
-        width: 90%;
+        width: 100%;
+        line-height: 3;
+        width: 100%;
+        line-height: 6;
+    }
+    .profile{
+        line-height: 2.5;
+        text-align: left;
+        justify-content: center;
     }
     .middle-container{
-        width: 90%;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .skill-row{
+        text-align: left;
+        justify-content: center;
+    }
+    .contact-me{
+        width: 50%;
+        font-size: large;
     }
     .bottom-container{
-        width: 90%;
+        width: 100%;
     }
-}*/
+}
+
+@media  screen and (min-device-width: 400px)
+and (min-device-width: 800px) {
+    .mountain-img{
+        width: 50%;
+    }
+    .top-cloud{
+        position: absolute;
+        right: 20%;
+        top: 100px;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 15%;
+        top: 300px;
+        height: 50px;
+    }
+    .max-width {
+        margin: 0;
+    }
+    .navbar{
+        width: 100%;
+        margin: 0px 0px 0px 10px;
+    }
+    .top-container{
+        width: 100%;
+        line-height: 3;
+        width: 100%;
+    }
+    .profile{
+        line-height: 2.5;
+        text-align: left;
+        justify-content: center;
+    }
+    .middle-container{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .skill-row{
+        text-align: left;
+        justify-content: center;
+    }
+    .contact-me{
+        width: 50%;
+        font-size: large;
+    }
+    .bottom-container{
+        width: 100%;
+    }
+}

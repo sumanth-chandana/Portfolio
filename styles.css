@@ -49,7 +49,22 @@ h1{
     font-family: 'Dancing Script', cursive;
     margin-top: 50px;
     color: #71C9CE;
+    animation-duration: 2s;
+    animation-name: name;
 }
+@keyframes name{
+    0%{
+        color:#71C9CE;
+    }
+    50%{
+        color:#1b7f69;
+    }
+    75%{
+        color:rgb(106, 167, 218);
+    }
+    100%{
+        color:#71C9CE
+    }
 a{
     color: #EAF6F6 ;
     font-family: 'Dosis', sans-serif;

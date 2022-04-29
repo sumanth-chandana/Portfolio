@@ -51,6 +51,7 @@ h1{
     color: #71C9CE;
     animation-duration: 2s;
     animation-name: name;
+    animation-iteration-count: infinte;
 }
 @keyframes name{
     0%{

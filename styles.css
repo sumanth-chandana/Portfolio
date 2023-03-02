@@ -5,28 +5,25 @@ body {
 
 .top-container {
     background-color: #CBF1F5;
-    text-align: center;
     position: sticky;
-    padding-top: 100px;
-    margin: auto;
+    padding-top: 10%;
+    text-align: center;
 }
-
+.gap{
+    margin: 100px;
+}
 .navbar {
-    margin: 0;
+    margin:0 20px 0 0;
     width: 100%;
     position: fixed;
     padding: 4px;
     background: #71C9CE;
 }
 
-.navbar .max-width {
+ .max-width {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px;
     align-content: center;
-}
-.max-width {
-    margin: 0;
 }
 
 .navbar .menu li {
@@ -35,23 +32,16 @@ body {
 }
 
 .navbar .logo a {
-    font-family: 'Dosis', sans-serif;
     color: #EAF6F6;
-    margin: 10px 20px;
-    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .navbar .menu li a {
     color: #40514E;
-    cursor: pointer;
-    text-decoration: none;
     font-family: sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    margin-left: 25px;
-    margin-right: 40px;
+    margin: 0 40px 0 25px;
 }
 
 .navbar .menu :hover {
@@ -59,7 +49,6 @@ body {
     transition: 0.5s;
 }
 a{
-    color: #EAF6F6 ;
     font-family: 'Dosis', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
@@ -68,7 +57,6 @@ a{
 h1 {
     font-size: 3.75rem;
     font-family: 'Dancing Script', cursive;
-    margin-top: 50px;
     color: #71C9CE;
     text-shadow: 0px 5px 4px gray;
     animation-duration: 2s;
@@ -93,36 +81,31 @@ h1 {
         color: #71C9CE
     }
 }
+
 a:hover {
     color: #40514E;
 }
-
 .hr {
     border: dotted #EAF6F6 10px;
     border-bottom: none;
-    width: 50px;
+    width: 90px;
     margin: auto;
 }
-
 .nxtline {
     border: dotted #fff 6px;
     border-bottom: none;
     width: 50px;
     margin: 50px auto;
 }
-
-.clg {
-    color: #40514E;
-}
-
-.clg:hover {
-    color: #71C9CE;
-    font-size: large;
+.skill-row {
+    width: 100%;
+    text-align: left;
+    line-height: 2;
 }
 
 .cap-text {
     text-shadow: 0px 2px 2px black;
-    font-size: 1.15em;
+    font-size: 1.2rem;
     color: #71C9CE;
 }
 
@@ -142,72 +125,125 @@ a:hover {
     bottom: 300px;
 }
 .name-cap{
+    margin:10px;
     align-items: center;
     justify-content: center;
 }
 .pro-img {
     border-radius: 50%;
-    width: 150px;
-    margin-top: 20px;
+    float: right;
+    margin: 10px 20px 0;
+    width: 200px;
 }
-
+.aboutme{
+   text-align: left;
+   
+}
 .python-img {
-    width: 5rem;
     float: left;
-    margin-right: 30px;
+    margin: 10px 10px 0 0;
+    width: 15rem;
 }
 
 .sql-img {
-    width: 5rem;
+    width: 9rem;
     float: right;
-    margin-left: 10px;
+    margin: 20px 0;
 
 }
-
+.html-img{
+    float: left;
+    margin:20px 15px 0;
+    width: 9rem;
+}
+.css-img{
+    float: right;
+    margin: 10px 0 0 10px;
+    width: 9rem;
+}
+.cli-img{
+    float: left;
+    margin:0 20px 0 0;
+    width: 10.5rem;
+}
+.internship-img{
+    float: right;
+    margin: -20px 0 0 0px;
+    width: 10.5rem;
+}
+.internship{
+    text-align: left;
+}
 .interests-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    float: right;
-    margin-left: 30px;
+    float: left;
+    margin: 10px 0 10px;
+    width: 9rem;
 }
 
-.get-in-touch {
+.img:hover{
+    transition: 3s;
+    transform: rotateY(360deg);
+}
+
+#profile{
+    text-align: left;
+    margin: 20px 0;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
     text-align: center;
-    justify-content: center;
 }
-
-h2,
-h3 {
+h2, h3 {
     color: #71C9CE;
-}
-
-#profile {
-    line-height: 2.5;
-    text-align: center;
-    justify-content: center;
+    font-family: 'Dosis', sans-serif;
 }
 
 .middle-container {
     color: #40514E;
-    width: 50%;
+    width: 60%;
     line-height: 2;
-    text-align: center;
     font-family: 'Dosis', sans-serif;
     margin: auto;
 }
 
-.skill-row {
-    width: 100%;
-    text-align: left;
-    line-height: 2;
+.interests{
+    display: flex;
+    margin: 70px;
+    list-style-type: circle;
+}
+.int-list{
+    margin:0 10px 30px 0;
+   padding-right: 20px;
+   width: 60%;
+}
+
+.contact-me {
+    background-color: #E3FDFD;
+    border-radius: 10px;
+    color: #1b7f69;
+    display: block;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto 10px;
+    width: 50%;
+}
+
+.contact-me:hover {
+    background-color: #71C9CE;
+    color: white;
+    transition: 0.5s;
 }
 
 .bottom-container {
     line-height: 2;
     background-color: #71C9CE;
     margin: auto;
-    padding: 8px 0px 0px;
+    padding: 8px 0;
     text-align: center;
     width: 100%;
     justify-content: space-evenly;
@@ -217,51 +253,15 @@ h3 {
     align-items: center;
     justify-items: center;
 }
-.contact-me {
-    background-color: #E3FDFD;
-    font-size: .8em;
-    text-align: center;
-    display: block;
-    padding: 0.75em 1em;
-    color: #1b7f69;
-    text-decoration: none;
-    margin: 10px auto 20px;
-    border-radius: 5px;
-    width: 50%;
-    font-family: sans-serif;
-}
-
-.pro-img:hover {
-    transition: 3s;
-    transform: rotateY(360deg);
-}
-
-.python-img:hover {
-    transition: 2s;
-    transform: rotateY(360deg);
-}
-
-.sql-img:hover {
-    transition: 1.5s;
-    transform: rotateY(360deg);
-}
-
-.interests-img:hover {
-    transition: 1.5s;
-    transform: rotateY(360deg);
-}
-
-.contact-me:hover {
-    background-color: #71C9CE;
-    color: white;
-    transition: 0.5s;
-}
-
 .cprt {
     color: #EAF6F6;
     font-size: 0.725rem;
     margin: 10px 0 5px;
 }
 
+@media screen and (min-device-width: 250px) and (max-device-width: 480px) {
+    .navbar {
+        display: none;
+    }
 
-
+}

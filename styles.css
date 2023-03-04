@@ -4,6 +4,7 @@ body {
 }
 
 .top-container {
+    display: block;
     background-color: #CBF1F5;
     position: sticky;
     padding-top: 10%;
@@ -209,6 +210,7 @@ h2, h3 {
     line-height: 2;
     font-family: 'Dosis', sans-serif;
     margin: auto;
+    text-align: center;
 }
 
 .interests{
@@ -221,13 +223,31 @@ h2, h3 {
    padding-right: 20px;
    width: 60%;
 }
+.contact{
+    background-image: url('images/sky1-img.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+}
+.get-in-touch{
+    color: #40514E;
+}
 form{
-    color: #71C9CE;
+    text-align: center;
+    color:#40514E;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
 }
 .label-name{
-    margin: 0px;
+    margin-right: 5%;
+}
+input{
+    size: 50px;
+}
+textarea{
+    margin:2% 25%;
 }
 
 .send {
@@ -235,9 +255,9 @@ form{
     border-radius: 10px;
     border-style: none;
     color: #1b7f69;
-    font-size: 1.5em;
+    font-size: 1.5em;   
     padding: 5px 0;
-    margin: 0 0 10px;
+    margin: 0 0 0 15px;
     text-align: center;
     width: 30%;
 }
@@ -274,5 +294,4 @@ form{
     .navbar {
         display: none;
     }
-
 }

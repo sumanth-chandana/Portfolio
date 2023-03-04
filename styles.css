@@ -221,13 +221,27 @@ h2, h3 {
    padding-right: 20px;
    width: 60%;
 }
+
+.contact{
+    background-image: url('images/sky1-img.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+}
+.get-in-touch{
+    color: #40514E;
+}
+
 form{
-    color: #71C9CE;
+    color: #40514E;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 .label-name{
-    margin: 0px;
+    margin-right:5%;
 }
 
 .send {

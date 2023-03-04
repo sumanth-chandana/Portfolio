@@ -94,12 +94,27 @@ crossorigin='anonymous'></script>
 
     <div class="skill-row" id="contact-me">
       <h2>Get In Touch</h2>
-      <h3>Email: <p>sumanth.chandana414@gmail.com</p> </h3>
-      <h3>Linkedin: <p>sy</p> </h3>
-      <form action=" ", autocomplete="on">
-        <p><label for="Contact">Contact Me:</label></p>
+      <form action="mailto:sumanth.chandana414@gmail.com", autocomplete="on">
+        <p class="label-name">
+          <label for="name">Name</label>
+        </p>
+          <input type="text">
+          
+      <p class="label-name">
+        <label for="email">E-mail</label>
+      </p>
+        <input type="email">
+      
+      <p class="label-name"> 
+        <label for="number">Contact-Number</label>
+        </p>
+        <input type="tel">
+      
+        <p class="label-name">
+          <label for="Contact">Message</label>
+        </p>
         <textarea name="textarea" id="" cols="90" rows="10"></textarea>
-        <a type="button" class="contact-me" href="">Send</a>
+        <input class ="send" type="button" value="Send">
       </form>
           <!--Place a form instead of a single contact me button-->
           

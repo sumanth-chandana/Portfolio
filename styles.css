@@ -221,28 +221,37 @@ h2, h3 {
    padding-right: 20px;
    width: 60%;
 }
-
-.contact-me {
-    background-color: #E3FDFD;
-    border-radius: 10px;
-    color: #1b7f69;
-    display: block;
-    font-family: sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px auto 10px;
-    width: 50%;
+form{
+    color: #71C9CE;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+.label-name{
+    margin: 0px;
 }
 
-.contact-me:hover {
+.send {
+    background-color: #E3FDFD;
+    border-radius: 10px;
+    border-style: none;
+    color: #1b7f69;
+    font-size: 1.5em;
+    padding: 5px 0;
+    margin: 0 0 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.send:hover {
+    border-style: none;
     background-color: #71C9CE;
     color: white;
+    cursor: pointer;
     transition: 0.5s;
 }
 
 .bottom-container {
-    line-height: 2;
+    line-height: 3;
     background-color: #71C9CE;
     margin: auto;
     padding: 8px 0;
@@ -258,7 +267,7 @@ h2, h3 {
 .cprt {
     color: #EAF6F6;
     font-size: 0.725rem;
-    margin: 10px 0 5px;
+    margin: 10px 0;
 }
 
 @media screen and (min-device-width: 250px) and (max-device-width: 480px) {

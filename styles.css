@@ -250,28 +250,30 @@ textarea{
     margin:2% 25%;
 }
 
-.send {
+.contact-me {
     background-color: #E3FDFD;
     border-radius: 10px;
-    border-style: none;
     color: #1b7f69;
+    display: block;
+    font-family: sans-serif;
+    font-size: 1.5em;
     font-size: 1.5em;   
     padding: 5px 0;
     margin: 0 0 0 15px;
     text-align: center;
-    width: 30%;
+    text-decoration: none;
+    margin: 10px auto 10px;
+    width: 50%;
 }
 
-.send:hover {
-    border-style: none;
+.contact-me:hover {
     background-color: #71C9CE;
     color: white;
-    cursor: pointer;
     transition: 0.5s;
 }
 
 .bottom-container {
-    line-height: 3;
+    line-height: 2;
     background-color: #71C9CE;
     margin: auto;
     padding: 8px 0;
@@ -287,7 +289,7 @@ textarea{
 .cprt {
     color: #EAF6F6;
     font-size: 0.725rem;
-    margin: 10px 0;
+    margin: 10px 0 5px;
 }
 
 @media screen and (min-device-width: 250px) and (max-device-width: 480px) {

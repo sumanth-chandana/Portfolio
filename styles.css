@@ -223,7 +223,10 @@ h2, h3 {
    padding-right: 20px;
    width: 60%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of a67c402 (contact form must be edited)
 .contact{
     background-image: url('images/sky1-img.jpg');
     background-attachment: fixed;
@@ -288,7 +291,7 @@ textarea{
 .cprt {
     color: #EAF6F6;
     font-size: 0.725rem;
-    margin: 10px 0 5px;
+    margin: 10px 0;
 }
 
 @media screen and (min-device-width: 250px) and (max-device-width: 480px) {

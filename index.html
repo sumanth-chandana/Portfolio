@@ -17,6 +17,7 @@ crossorigin='anonymous'></script>
     <ul class="menu">
       <li><a class="#active" href="#home">Home</a></li>
       <li><a href="#profile">About me</a></li>
+      <li><a href="#my-skills">Skills</a></li>
       <li><a href="#contact-me">Contact Me</a></li>
     </ul>
   </div>
@@ -45,7 +46,7 @@ crossorigin='anonymous'></script>
       <br><br>
       I am seeking a challenging and rewarding role in Software Development where I can make a meaningful contribution, work with talented professionals, and continue developing my skills. Please feel free to discuss potential opportunities or connect on LinkedIn.</p>
 
-<div class="gap"></div>
+<div id="my-skills" class="gap"></div>
 <hr class="hr">
   <div class="skills">
     <h2>My Skills.</h2>
@@ -90,17 +91,30 @@ crossorigin='anonymous'></script>
         </p>
       </div>
     </div>
-
-    <hr class="hr">
-
-    <div class="skill-row" id="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Email: <p>sumanth.chandana414@gmail.com</p> </h3>
-      <h3>Linkedin: <p>sy</p> </h3>
-      <form action=" ", autocomplete="on">
-        <p><label for="Contact">Contact Me:</label></p>
+  </div>
+    <div class="contact">
+      <h2 class="get-in-touch">Get In Touch</h2>
+      <form action="mailto:sumanth.chandana414@gmail.com", autocomplete="on">
+        <p class="label-name">
+          <label for="name">Name</label>
+        </p>
+          <input type="text">
+          
+      <p class="label-name">
+        <label for="email">E-mail</label>
+      </p>
+        <input type="email">
+      
+      <p class="label-name"> 
+        <label for="number">Contact-Number</label>
+        </p>
+        <input type="tel">
+      
+        <p class="label-name">
+          <label for="Contact">Message</label>
+        </p>
         <textarea name="textarea" id="" cols="90" rows="10"></textarea>
-        <a type="button" class="contact-me" href="">Send</a>
+        <input class ="send" type="button" value="Send">
       </form>
           <!--Place a form instead of a single contact me button-->
           

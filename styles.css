@@ -224,27 +224,55 @@ h2, h3 {
    width: 60%;
 }
 
-.contact-me {
-    background-color: #E3FDFD;
-    border-radius: 10px;
-    color: #1b7f69;
-    font-size: 1.5em;
-    padding: 5px 0;
-    margin: 0 0 10px;
+.contact{
+    background-image: url('images/sky1-img.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+}
+.get-in-touch{
+    color: #40514E;
+}
+form{
     text-align: center;
-    text-decoration: none;
-    margin: 10px auto 10px;
-    width: 50%;
+    color:#40514E;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+.label-name{
+    margin-right: 5%;
+}
+input{
+    size: 50px;
+}
+textarea{
+    margin:2% 25%;
 }
 
-.contact-me:hover {
+.send {
+    background-color: #E3FDFD;
+    border-radius: 10px;
+    border-style: none;
+    color: #1b7f69;
+    font-size: 1.5em;   
+    padding: 5px 0;
+    margin: 0 0 0 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.send:hover {
+    border-style: none;
     background-color: #71C9CE;
     color: white;
+    cursor: pointer;
     transition: 0.5s;
 }
 
 .bottom-container {
-    line-height: 2;
+    line-height: 3;
     background-color: #71C9CE;
     margin: auto;
     padding: 8px 0;

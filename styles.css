@@ -142,11 +142,11 @@ a:hover {
 .python-img {
     float: left;
     margin: 10px 10px 0 0;
-    width: 15rem;
+    width: 12%;
 }
 
 .sql-img {
-    width: 9rem;
+    width: 14%;
     float: right;
     margin: 20px 0;
 
@@ -154,30 +154,32 @@ a:hover {
 .html-img{
     float: left;
     margin:20px 15px 0;
-    width: 9rem;
+    width: 15%;
 }
 .css-img{
     float: right;
-    margin: 10px 0 0 10px;
-    width: 9rem;
+    margin: 10px 0;
+    width: 15%;
 }
 .cli-img{
     float: left;
     margin:0 20px 0 0;
-    width: 10.5rem;
+    width: 15%;
+    border-radius: 100%;
 }
 .internship-img{
     float: right;
-    margin: -20px 0 0 0px;
-    width: 10.5rem;
+    margin: -20px 0 0 10px;
+    width: 30%;
+    border-radius: 10px;
 }
 .internship{
     text-align: left;
 }
 .interests-img {
     float: left;
-    margin: 10px 0 10px;
-    width: 9rem;
+    margin: -10px 0 10px;
+    width: 15%;
 }
 
 .img:hover{

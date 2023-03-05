@@ -239,31 +239,23 @@ h2, h3 {
     color: #40514E;
 }
 form{
-    text-align: center;
-    color:#40514E;
+    color: #40514E;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
+    margin-left:5%;
+    padding-bottom: 20px;
 }
-.label-name{
-    margin-right: 5%;
-}
-input{
-    size: 50px;
-}
-textarea{
-    margin:2% 25%;
-}
-
 .send {
     background-color: #E3FDFD;
     border-radius: 10px;
     border-style: none;
     color: #1b7f69;
-    font-size: 1.5em;   
+    display: block;
+    font-size: large;
     padding: 5px 0;
-    margin: 0 0 0 15px;
+    margin-top: 10px;
     text-align: center;
-    width: 30%;
+    width: 20%;
 }
 
 .send:hover {
@@ -278,7 +270,7 @@ textarea{
     line-height: 3;
     background-color: #71C9CE;
     margin: auto;
-    padding: 8px 0;
+    padding: 5px 0;
     text-align: center;
     width: 100%;
     justify-content: space-evenly;
@@ -290,7 +282,7 @@ textarea{
 }
 .cprt {
     color: #EAF6F6;
-    font-size: 0.725rem;
+    font-size: 1rem;
     margin: 10px 0;
 }
 

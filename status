@@ -1,0 +1,220 @@
+[33mcommit 694952665a0fdbaded49b0a2b20e621afde9f9a9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: defc8d2 1d5f3e3
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Mon Mar 6 16:19:26 2023 +0530
+
+    Merge branch 'master' of https://github.com/sumanth-chandana/Portfolio
+
+[33mcommit 1d5f3e3891021eed6d1cfa4c67c120d1cb45a478[m
+Author: Sumanth Potharaju Chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Mon Mar 6 16:17:23 2023 +0530
+
+    Update README.md
+
+[33mcommit defc8d2cdc93f41d9a5dca2b6ef70b4b19cbe444[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Mon Mar 6 16:14:12 2023 +0530
+
+    settings.json file changed
+
+[33mcommit 6d3e3becc5c7509da1a3cf6566b3df4d88fcf26d[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Mon Mar 6 16:12:17 2023 +0530
+
+    small changes
+
+[33mcommit dce7e977d27a20c4b69b850bd157edd8a9ec3262[m
+Merge: 948bdc1 33821e6
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sun Mar 5 16:04:07 2023 +0530
+
+    small changes are made
+
+[33mcommit 33821e63cec609e25ee05c6d782ef07e1053dd9a[m[33m ([m[1;32mnwbr[m[33m)[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sun Mar 5 15:44:06 2023 +0530
+
+    hr is added b/w sections
+
+[33mcommit 4052248ffae318352bd06c916aa45746e632b1b4[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sun Mar 5 15:30:08 2023 +0530
+
+    contact form is successfully added
+
+[33mcommit 98d370d680ebeacf032e860823fe993a1898c0dd[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 23:13:57 2023 +0530
+
+    so far so good.. added contact form also
+
+[33mcommit 948bdc1ce66b707eef719a5cece374594413b7bd[m
+Merge: a3b25d3 b939e09
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 22:48:40 2023 +0530
+
+    Merge branch 'master' of https://github.com/sumanth-chandana/personal-portfolio2
+
+[33mcommit a3b25d3830ab0be73fa26783d8b2dd4df858708a[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 22:38:45 2023 +0530
+
+    Revert "contact form must be edited"
+    
+    This reverts commit a67c4022a27c409a058e623222e749a634e53568.
+
+[33mcommit f290b41f6cda456bb49199f871deaea765ada280[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 22:36:54 2023 +0530
+
+    messed up again
+
+[33mcommit a67c4022a27c409a058e623222e749a634e53568[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 22:03:35 2023 +0530
+
+    contact form must be edited
+
+[33mcommit 519810f3383fcf58386990deb4a907d50bad75d6[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 21:57:11 2023 +0530
+
+    Revert "Revert "contact form is added""
+    
+    This reverts commit c5be796a8de789db268895b6c6630e17a0cf4355.
+
+[33mcommit c5be796a8de789db268895b6c6630e17a0cf4355[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 21:49:27 2023 +0530
+
+    Revert "contact form is added"
+    
+    This reverts commit f20b0b3fbe504b9caeb8e4b8a4701168bc69fa17.
+
+[33mcommit 08f9ab3132ab5f1a1a1a213fff2eb779536d8928[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 21:42:17 2023 +0530
+
+    everything is messed up
+
+[33mcommit f20b0b3fbe504b9caeb8e4b8a4701168bc69fa17[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 19:34:50 2023 +0530
+
+    contact form is added
+
+[33mcommit 29897786e3e486f9cc51b0c561c3d3c7be8c4fde[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Sat Mar 4 17:44:34 2023 +0530
+
+    images are been replaced with gifs
+
+[33mcommit b939e096c9045ddbcf1bec274af34fcede8f8e78[m
+Author: Sumanth Potharaju Chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Sat Mar 4 16:02:59 2023 +0530
+
+    Delete computer.png
+
+[33mcommit 2d03a387951bb93d0950b49d7429a407988723c0[m
+Author: Sumanth Potharaju Chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Sat Mar 4 16:02:27 2023 +0530
+
+    Delete chillies.png
+
+[33mcommit 9793c7f46c726d2b65d2fdb049354f5cffa9ae20[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Thu Mar 2 22:44:15 2023 +0530
+
+    unneccessary data is been removed
+
+[33mcommit e4c8f739946da206c6d05495783f7e6fe2f861ad[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Thu Mar 2 17:21:26 2023 +0530
+
+    media queries are removed
+
+[33mcommit d19307caec04873adfb5e7b173291f126b8b1c02[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Thu Mar 2 15:43:34 2023 +0530
+
+    nav bar menu button is released
+
+[33mcommit 0c9f7ca7de4d700f6aa78f3d1a92204171746668[m
+Author: sumanthchandana <sumanth.chandana414@gmail.com>
+Date:   Thu Mar 2 15:26:06 2023 +0530
+
+    contact in nav-bar is fixed
+
+[33mcommit b300438f878b5b7ecc264ebeb328c2f362fc6540[m
+Author: Sumanth Potharaju Chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Wed Mar 1 21:01:20 2023 +0530
+
+    Update README.md
+
+[33mcommit 7114caca2df982d767d1e7f6ae36c535dd63e525[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Mon Jan 23 11:11:37 2023 +0530
+
+    Update index.html
+
+[33mcommit 74ffd1254567138e62105b60c506b043c6e10756[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Fri May 6 15:29:59 2022 +0530
+
+    Update index.html
+
+[33mcommit a9ccced2076d610fc5f8f5f7cb882e7e8dc733ce[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Fri May 6 15:29:30 2022 +0530
+
+    Update styles.css
+
+[33mcommit 711822de1ad9d706677daaa5457a5f8252d7478d[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Sat Apr 30 12:56:55 2022 +0530
+
+    Update styles.css
+
+[33mcommit 2800eb6d5a00e76d61459e8d4b7e0d26e6bd5815[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Fri Apr 29 13:03:56 2022 +0530
+
+    Update styles.css
+
+[33mcommit 608a45a55f24520502bf4d785a5175691485abc3[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Fri Apr 29 13:01:25 2022 +0530
+
+    Update styles.css
+    
+    added keyframes for name
+
+[33mcommit 80f40e69193655edb3dc5257ab343543d5e1ea67[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Tue Apr 26 00:47:42 2022 +0530
+
+    Update styles.css
+
+[33mcommit 16bdb1f3c5ab4c0605cfb659fb1f17c59fab2625[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Tue Apr 26 00:45:46 2022 +0530
+
+    Update index.html
+
+[33mcommit 31aab4d4fa9cd7ae14a39efb4592bd767a9d1489[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Sat Apr 23 18:01:30 2022 +0530
+
+    Update README.md
+
+[33mcommit 284c673ac08f21727b837508bc7edeb56f81d53e[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Sat Apr 23 18:01:02 2022 +0530
+
+    Add files via upload
+
+[33mcommit 4ed6dcf6976151766388cc75c2ef12e79a529ca0[m
+Author: sumanth-chandana <104053993+sumanth-chandana@users.noreply.github.com>
+Date:   Sat Apr 23 18:00:08 2022 +0530
+
+    Initial commit

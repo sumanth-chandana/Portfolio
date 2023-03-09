@@ -1,6 +1,7 @@
 body {
     display: block;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .top-container {
@@ -229,7 +230,7 @@ h2, h3 {
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-blend-mode: darken;
+    background-origin: border-box;
     margin-top: 10px;
     padding-top: 5px;
 }
@@ -237,12 +238,25 @@ h2, h3 {
     color: #40514E;
 }
 form{
-    color: #40514E;
     font-family: 'Dosis', sans-serif;
-    font-size: 20px;
+    font-size: large;
     margin-left:5%;
     padding-bottom: 20px;
 }
+input, textarea{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+label{
+    color: #393940;
+}
+input:focus, textarea:focus{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .send {
     background-color: #E3FDFD;
     border-radius: 10px;
@@ -284,7 +298,18 @@ form{
     margin: 10px 0;
 }
 
-@media screen and (min-device-width: 250px) and (max-device-width: 480px) {
+.footer-link:visited{
+    color: #40514E;
+}
+.footer-link:active{
+    color: white;
+}
+.footer-link:hover{
+    color:white;
+    transition: 0.5s;
+}
+
+@media screen and (min-device-width: 250px) and (max-device-width: 570px) {
     .navbar {
         display: none;
     }
